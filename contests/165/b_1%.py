@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abc165/submissions/37623861
+
 X = int(input())
 yen = 100
 years = 0
