@@ -20,6 +20,7 @@ colors = list(map(int, input().split()))
 for i in range(Q):
   # tは 1 or 2
   # yは値が存在する、しないが存在する
+  # 演算子「*」(Extended Iterable Unpacking Operator)を活用している
   t, x, *y = map(int, input().split())
 
   # ValueError: not enough values to unpack (expected 3, got 2)
