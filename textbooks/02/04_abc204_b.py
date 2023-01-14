@@ -1,7 +1,7 @@
 # link: https://atcoder.jp/contests/abc204/tasks/abc204_b
 
 N = int(input())
-A = map(int, input().split())
+A = list(map(int, input().split()))
 cnt = 0
 
 for i in range(N):
