@@ -5,8 +5,8 @@ N = int(input())
 list = []
 
 for i in range(N):
-  si, _ti = map(str, input().split())
-  ti = int(_ti)
+  si, ti = map(str, input().split())
+  ti = int(ti)
   list.append([ti, si])
 
 # sort()する時は、配列先頭の要素をソートすることになる為
