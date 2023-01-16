@@ -34,3 +34,5 @@ cf. _./10_abc201_b.py_
 cf. _./11_abc234_b.py_
 
 (x1, y1)と(x2, y2)における線分の長さは `√ (x1 - x2) ^ 2 + (y1 - y2) ^ 2` となる
+
+Python で言えば、 `from math import sqrt` を用いることができる
